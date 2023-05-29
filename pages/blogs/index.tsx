@@ -32,7 +32,7 @@ function Blogs({ blogs }: BlogsProps) {
         blogs.map((blog) => {
           return (
             <Link
-              href={`/products/${blog.id}`}
+              href={`/blogs/${blog.id}`}
               key={blog.id}
               className={styles.blogCard}
             >
