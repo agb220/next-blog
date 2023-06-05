@@ -31,9 +31,6 @@ export default function Home() {
           Обов'язково відвідайте та відкрийте для себе нові місця та розкажіть
           про них нам!
         </p>
-        <Link className={styles.btn} href="/products">
-          Всі Суші
-        </Link>
       </main>
     </>
   );
